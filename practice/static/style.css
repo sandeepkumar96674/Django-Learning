@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(223, 207, 60);
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+}
+.heading{
+    text-align: center;
+    font-size: 2em;
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.head{
+    text-align: center;
+    font-size: 2em;
+}
+
+.para{
+    text-align: center;
+    font-size: 1.2em;
+}

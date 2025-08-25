@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}Default Title{% endblock %}
+    </title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <nav>This is the Navbar</nav>
+    {% block content %}Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec leo tincidunt tincidunt. Sed sit amet facilisis urna. Mauris euismod, nisl eget consectetur sagittis, nisl nunc aliquet nunc, eget aliquam nisl nunc eget nunc.{% endblock %}
+
+</body>
+</html>
