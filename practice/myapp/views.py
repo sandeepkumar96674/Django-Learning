@@ -1,5 +1,7 @@
 from django.shortcuts import render
+from .models import Student
 
 # Create your views here.
 def all_app(request):
-    return render(request, "myapp/all_app.html")
+    student = Student.objects.all()
+    return render(request, "myapp/all_app.html", {"students": student})

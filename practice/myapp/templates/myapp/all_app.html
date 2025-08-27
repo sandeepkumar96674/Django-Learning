@@ -7,5 +7,11 @@
 </head>
 <body>
     <h1>Django Series</h1>
+    <h2>All App</h2>
+    <ul>
+        {% for student in students %}
+            <li>{{ student.first_name }} {{ student.last_name }} - {{ student.email }} - {{ student.course }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
