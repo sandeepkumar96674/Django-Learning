@@ -5,3 +5,6 @@ from .models import Student
 def all_app(request):
     student = Student.objects.all()
     return render(request, "myapp/all_app.html", {"students": student})
+
+def form_app(request):
+    return render(request, "myapp/forms.html")
